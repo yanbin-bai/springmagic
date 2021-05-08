@@ -1,0 +1,2 @@
+import springmagic
+springmagic.main()

@@ -1,0 +1,57 @@
+############################################
+# Utility Functions
+############################################
+
+# to get object parrent
+# parent = obj.getParent()
+
+# to get all parents of a joint
+# parentList = joint.getAllParents()
+
+# to get root bone
+# rootBone = joint.root()
+
+# to get object all children
+# children = pm.listRelatives(obj, allDescendents = 1)
+
+# to make sure the selection is a mesh
+# pm.nodeType(pm.ls(sl=True, type='transform')[0].getShape()) == 'mesh'
+
+# to get vertex in selection as flatten
+# pm.ls(sl=True, type='float3', flatten=True)[0]
+
+# to get skin cluster
+# pm.listHistory(pm.ls(sl=True), type='skinCluster')[0]
+
+# to get all influcent bone of a skin cluster
+# obj.getInfluence()
+
+# About path module
+
+# from pymel.util.path import path
+# filePath = 'c:/temp/test/myTestFile.txt'
+# fpPathObj = path(filePath)
+# fpPathObj
+# # Result: path('c:/temp/test/myTestFile.txt') #
+# fpPathObj.basename()
+# # Result: 'myTestFile.txt' #
+# # .name is a property which returns the same
+# fpPathObj.name
+# # Result: 'myTestFile.txt' #
+# # namebase returns fileName only w/o extension
+# fpPathObj.namebase
+# # Result: 'myTestFile' #
+# # return directory above file
+# fpPathObj.parent
+# # Result: path('c:/temp/test') #
+# # check extension
+# fpPathObj.endswith('txt')
+# # Result: True #
+# # check existance
+# fpPathObj.exists()
+# # Result: True #
+# # check to see if folder type
+# fpPathObj.parent.isdir()
+# # Result: True #
+# fpPathObj.parent.parent.name
+# # Result: 'temp' #

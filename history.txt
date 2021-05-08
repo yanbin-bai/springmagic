@@ -1,0 +1,75 @@
+#####################################################################################
+#
+# Spring Magic for Maya
+#
+# Calculate bone chain animation by settings, support collisions and wind force
+# Can work with rigging controller as well
+#
+# Need pringMagic.ui file to work with
+# This script need also icon file support, which should be put in same folder
+#
+# feel free to mail me redtank@outlook.com for any bug or issue
+#
+# Yanbin Bai
+# 2021.02
+#
+#####################################################################################
+
+3.5a
+- Fix bug tension calculation introduced in the 3.5 (Benoit Degand)
+- Fix bug inertia calculation introduced in the 3.5 (Benoit Degand)
+- Clarify code splitting source code in class and methods (Benoit Degand)
+
+3.5
+- Apply PEP8 coding format (Benoit Degand)
+- Add possiblity to cancel the operation (Esc) (Benoit Degand)
+- Increase speed (x2), avoiding locators and aim constraints intensive creation/deletion (Benoit Degand)
+- Fragment source code in several files (Benoit Degand)
+- Pose Match default off
+
+3.4b
+- fix collision bug
+
+3.4a
+- fix wind bug
+
+3.4
+- add plane collision
+- add pose match
+
+3.3
+- add inertia effect
+
+3.2
+- fix wind effect cannot set key issue
+
+3.1
+- add bind controller
+- add wind
+- add flex setting
+- improve performance
+- fix twist bug
+- add capsule icon
+- seperate skinTools to spring magic and skin magic
+
+3.0
+- re-write spring magic to improve performance
+- add capsule collision for spring magic
+- add donate page
+
+2.7.8
+- fix script stop working issue cause by highend3d.com changed their web page
+
+2.7.7
+- add time out for update checking in case of network issue
+
+2.7.6
+- fix spring magic calculation issue on MAYA 2016
+- update UI for MAYA 2016
+Thanks for all the help from Nobuyuki Kobayashi nobuyuki@unity3d.com
+
+2.7.5
+- add floor collision to spring magic
+
+2.7
+- Add spring magic

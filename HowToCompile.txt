@@ -1,0 +1,5 @@
+If you changed the source code, you have to recompile SpringMagic project
+
+Uncomment this line in file springMagic.py
+# Recompile SpringMagic module if modification has been made
+dev.refresh(springmagic)
